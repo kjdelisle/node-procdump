@@ -3,8 +3,10 @@ A thin-wrapper on Sysinternals' "procdump" utility.
 
 ## Overview
 
-procdump.js is a thin wrapper on the procdump.exe utility used by Sysinternals. You can pass any of the valid parameters that the exe would accept into this
+procdump.js is a thin wrapper on the procdump.exe utility made by Sysinternals. You can pass any of the valid parameters that the exe would accept into this
 wrapper using node at the command line. Please note that this program was made with ES6 keywords, and will require the --harmony tag to run.
+
+**IMPORTANT**: This program was designed exclusively for the Windows operating system, and was not tested with any variant of Linux, or with Mac OS X.
 
 ### Examples
 
