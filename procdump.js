@@ -22,7 +22,7 @@ windows.isAdminUser(function(isAdmin){
 });
 
 function dump(){
-	var args = process.argv.slice(2, process.argv.length), //Collect the remaining args into one space-separated string.
+	var args = process.argv.slice(2, process.argv.length), //Get subset of args (don't want the name).
 	output = '',
 	procDump = spawn('procdump', args);
 	
