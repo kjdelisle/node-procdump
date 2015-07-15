@@ -30,3 +30,14 @@ node --harmony dummyProcess.js
 
 For a complete list of valid procdump commands, please visit:
 https://technet.microsoft.com/en-us/sysinternals/dd996900.aspx
+
+
+#### Visual Studio Code
+If you're using Visual Studio Code as your editor, there's an included .settings directory with a launch.json configuration file
+that comes set with some defaults for ease of debugging. You can make changes to the args section to change your in-editor runs.
+
+```
+//Stuff up here
+"args":["notepad","-accepteula","-ma", "-r", "-a", "testDump.dmp"],
+//etc...
+```
